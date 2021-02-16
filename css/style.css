@@ -143,7 +143,6 @@ li a, button{
 
 
 /* INIZIO STYLING MAIN */
-
 main hr{
     background-color: #cccccc;
     height: 1px;
@@ -184,11 +183,15 @@ main hr{
     float: left;
     width: 32%;
 }
+.paragraph-container{
+    background-color: indigo;
+}
 .card.central{
     margin: 0 2%;
 }
 .card h2{
     color: #7cbb02;
+    font-size: 32px;
 }
 .card hr{
     margin: 30px auto;
@@ -250,12 +253,63 @@ main hr{
 
 
 /* INIZIO FOOTER */
+footer{
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+    background-color: #d3d3d3;
+    position: relative;
+}
+
+.footer-content-box{
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 0;
+}
+
+/* dubbi sulla possibile correttezza di questa parte */
+.footer-content-box h2, .footer-right-side{
+    display: inline;
+}
+
+.footer-right-side{
+    float: right;
+}
+.footer-content-box{
+    float: left;
+}
+.footer-right-side button{
+    padding: 15px 10px;
+}
+label, select{
+    color: grey;
+    font-size: 14px;
+}
+select{
+    background-color: #d3d3d3;
+    border: none;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    outline: none;
+    padding-right: 40px;
+}
+
+label,select, .footer-right-side button{
+    margin-left: 30px;
+}
+
+/* sticky help */
+.sticky-btn{
+    position: fixed;
+    bottom: 0;
+    left: 85%;
+    border-radius: 5px 5px 0 0;
+}
 
 
+/* FINE FOOTER */
 
-
-
-
-
-
-
+/* VALIDATED */
