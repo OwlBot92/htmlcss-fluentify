@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* COMMON */
+img{
+    width: 100%;
+    display: block;
+}
+
+/* BUTTON STYLING */
+.green-btn, .transparent-btn{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.green-btn:hover{
+    background-color: green;
+}
+.transparent-btn:hover{
+    background-color: white;
+    color: #0c325a;
+}
+.green-btn{
+    background-color: #7cbb02;
+}
+.transparent-btn{
+    border: 1px solid white;
+    padding: 10px 20px;
+    background-color: #0c325a;
+}
+
+
+/* HEADER STYLING */
+.wrapped-header{
+    padding-top: 20px;
+    background-color: #0c325a;
+    height: 550px;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.clearfix-nav, .container-title-btn{
+    width: 85%;
+    margin: auto;
+}
+.clearfix-nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo-container{
+    width: 180px;
+}
+.col.right{
+    float: right;
+}
+
+
+.logo-container, .col{
+    float: left;
+}
+
+/* COMMON list styling */
+.nav-center{
+    margin-left: 20px;
+    line-height: 70px;
+}
+.nav-right{
+    line-height: 70px;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    padding-left: 20px;
+}
+li a{
+    color: white;
+}
+li a:hover{
+    color: orange;
+}
+li a, button{
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* HEADER title and button */
+.container-title-btn{ /* width e margin in comune con .wrapper-nav */
+    color: white;
+    padding-top: 90px;
+}
+.container-title-btn h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.container-title-btn button{
+    padding: 20px;
+}
