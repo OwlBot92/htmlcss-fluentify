@@ -191,7 +191,12 @@ main hr{
 }
 .card h2{
     color: #7cbb02;
-    font-size: 32px;
+    font-size: 20px;
+    /* per evitare che i caratteri all'interno dei blocchi rovinino il layout */
+    max-width: 25ch;
+    min-width: 15ch;
+    /* fine max/min */
+    margin: auto;
 }
 .card hr{
     margin: 30px auto;
@@ -202,6 +207,7 @@ main hr{
 }
 .card p{
     margin-bottom: 50px;
+    text-align:center;
 }
 /* FINE UPPERZONE STYLING */
 
